@@ -1,0 +1,24 @@
+{
+  "name": "ai-bot",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch run index.ts",
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node-telegram-bot-api": "^0.64.9",
+    "@types/websocket": "^1.0.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.2.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^5.10.1",
+    "websocket": "^1.0.35"
+  }
+}
